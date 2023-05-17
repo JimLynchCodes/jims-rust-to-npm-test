@@ -1,5 +1,33 @@
 {
-  "dependencies": {
-    "rust-to-npm": "^0.4.10"
-  }
+  "name": "jims-rust-cli-test",
+  "version": "0.1.1",
+  "description": "A cool cli tool test by Jim!",
+  "main": "start.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node ./pre-install.js",
+    "uninstall": "node ./uninstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JimLynchCodes/jims-rust-to-npm-test.git"
+  },
+  "keywords": ["rust-to-npm-cli","deploy-rust","npm","rust","cli-tool"],
+  "author": "Jim Lynch - jim.lynch@evaluates2.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JimLynchCodes/jims-rust-to-npm-test/issues"
+  },
+  "homepage": "https://github.com/JimLynchCodes/jims-rust-to-npm-test",
+  "files": [
+    "pre-install.js",
+    "start.js",
+    "uninstall.js",
+    "README.md",
+    "LICENSE"
+  ]
 }
+    
