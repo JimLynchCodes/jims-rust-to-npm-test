@@ -48,10 +48,28 @@ OR via npm (but not both)
 npm i -g rust-to-npm-cli
 ```
 
-## Step 6) Deploy
+## Step 8) Deploy
 ```sh
 rust-to-npm-cli deploy -b
 ```
 
-## Step 7) Re-Deploy
+## Step 9) Re-Deploy
 Change the version in Caargo.toml (according to semver) and then repeat step 6.
+
+## Step 10) Install Your Package
+
+```sh
+npm i -g jims-rust-cli-test
+```
+
+_or_
+
+```sh
+cargo install jims-rust-cli-test
+```
+
+## Step 9) User Your Package
+
+```sh
+jims-rust-cli-test
+```
