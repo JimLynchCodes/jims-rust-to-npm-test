@@ -17,7 +17,7 @@ Add these keys to Cargo.toml (with your desired values):
 ```
 description = "A cool cli tool test by Jim!"
 repository = "https://github.com/JimLynchCodes/jims-rust-to-npm-test"
-readme = "README.md"
+readme = "README-for-registry.md"
 keywords = ["rust-to-npm-cli", "deploy-rust", "npm", "rust", "cli-tool"]
 categories = ["command-line-utilities"]
 license = "MIT"
@@ -25,15 +25,33 @@ homepage = "https://github.com/JimLynchCodes/jims-rust-to-npm-test"
 authors = ["Jim Lynch - jim.lynch@evaluates2.com"]
 ```
 
-## Step 5) Deploy
+# Step 5) Account Logins
 
+Login to your crates.io account in your terminal:
+```sh
+cargo login
+```
 
-## Step 6) Re-Deploy
+Login to your npmjs.com account in your terminal:
+```sh
+npm adduser
+```
 
+## Step 7) Install 
+```sh
+cargo install rust-to-npm-cli
+```
 
----
+OR via npm (but not both)
 
-## Cargo Installation
+```sh
+npm i -g rust-to-npm-cli
+```
 
+## Step 6) Deploy
+```sh
+rust-to-npm-cli deploy -b
+```
 
-## NPM Installation
+## Step 7) Re-Deploy
+Change the version in Caargo.toml (according to semver) and then repeat step 6.
