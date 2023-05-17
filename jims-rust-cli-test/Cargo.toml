@@ -1,10 +1,10 @@
 [package]
 name = "jims-rust-cli-test"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 description = "A cool cli tool test by Jim!"
 repository = "https://github.com/JimLynchCodes/jims-rust-to-npm-test"
-readme = "README.md"
+readme = "README-for-registry.md"
 keywords = ["rust-to-npm-cli", "deploy-rust", "npm", "rust", "cli-tool"]
 categories = ["command-line-utilities"]
 license = "MIT"

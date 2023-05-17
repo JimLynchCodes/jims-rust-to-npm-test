@@ -1,6 +1,6 @@
 {
   "name": "jims-rust-cli-test",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A cool cli tool test by Jim!",
   "main": "start.js",
   "directories": {
