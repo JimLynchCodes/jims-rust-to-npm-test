@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "rust-to-npm": "^0.4.10"
+  }
+}
